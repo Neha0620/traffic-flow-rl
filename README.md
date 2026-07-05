@@ -1,11 +1,3 @@
-# Traffic Flow Optimization using Reinforcement Learning
-
-5th-semester mini project (BCS586, RNS Institute of Technology) — adaptive
-multi-intersection traffic signal control using PPO, trained and evaluated
-in SUMO on a real OpenStreetMap-derived road network.
-
-This is the working code behind the submitted report, cleaned up and
-fixed so it runs end-to-end and can be reproduced from scratch.
 
 ## Architecture
 
