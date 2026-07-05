@@ -97,17 +97,3 @@ python3 train_multi_tls.py 20000  # train PPO (~20k timesteps, ~4-5 min)
 python3 run_rl.py                 # evaluate trained policy
 ```
 
-## Notes for GitHub / Resume
-
-- Suggested resume line: *"Trained a PPO-based multi-agent reinforcement
-  learning controller in SUMO to adaptively manage 9 traffic signals on a
-  real OpenStreetMap-derived road network, reducing average vehicle
-  waiting time by 60-99% versus fixed-time control across training
-  runs."*
-- Be ready to explain: state/action/reward design, why PPO (vs. DQN /
-  tabular Q-learning), and the phase-timer bug caught in the baseline
-  above — that story is genuinely worth telling in an interview.
-- Natural extensions if asked "what would you do next": longer training,
-  a larger city-scale network, comparing against DQN/Q-Learning, and
-  reward shaping that also penalizes queue length directly (not just
-  waiting time).
