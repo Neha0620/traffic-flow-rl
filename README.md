@@ -89,7 +89,7 @@ sudo apt-get install sumo sumo-tools
 export SUMO_HOME=/usr/share/sumo
 
 # Python dependencies
-pip install stable-baselines3 gymnasium sumo-rl traci sumolib matplotlib
+pip install -r requirements.txt
 
 cd python
 python3 run_no_rl.py              # baseline
